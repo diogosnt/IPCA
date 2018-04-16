@@ -1,0 +1,175 @@
+body {
+    font-family: Univers LT Std Bold, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: rgb(0, 204, 255);
+    color: rgb(0, 82, 130);
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 30px;
+    font-size: 14px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 10px;
+}
+
+header li1 {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid rgb(0, 82, 130);
+    border-radius: 4px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding{
+    margin:0;
+}
+
+header #branding img {
+    width: 35px;
+    height: 35px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+#showcase{
+    background: rgb(0, 204, 255);
+    min-height: 350px;
+    text-align: center;
+    color: rgb(0, 88, 130);
+    line-height: 16px;
+    padding: 96px 0 0 0;
+}
+
+#showcase .container img{
+    width: 214px;
+    height: 140px;
+}
+
+#showcase h1 {
+    font-size: 36px;
+}
+
+#showcase p {
+    font-size: 24px;
+    color: rgb(0, 123, 171);
+}
+
+#menu {
+    background: rgb(0, 204,255);
+    font-size: 12.5px;
+    color: rgb(0, 123, 171);
+    padding: 0 0 16px 0;
+    text-align: center;
+}
+
+#menu .container img {
+    width: 25px;
+    height: 25px;
+    padding: 0 10px 0 10px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+#menu li2{
+    border: 1px solid rgb(0, 123, 171);
+    border-radius: 4px;
+    padding: 5px 15px 5px 15px;
+}
+
+#boxes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#boxes .box{
+    float: left;
+    width:30%;
+    padding: 10px;
+}
+
+#boxes .box h3{
+    text-align: left
+}
+
+#boxes .box p{
+    text-align: left;
+    color: dimgrey;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#boxes .box img {
+    height:174px;
+    border: 1px solid gainsboro;
+    padding: 15px;
+}
+
+#boxes .author {
+    float: left;
+    line-height: 6px;
+}
+
+#boxes .author img {
+    width: 38px;
+    height: 38px;
+    padding: 6px;
+    border: 1px solid rgb(0, 204, 255);
+    border-radius: 100px;
+    border-style: dotted;
+    float: left;
+}
+
+#boxes .author p{
+    font-size: 14px;
+    color: rgb(0, 130, 169);
+    font-weight: 400;
+    padding: 0px 0px 0px 60px;
+}
+
+#boxes .author p1{
+    font-size: 12px;
+    color: dimgrey;
+    padding: 0px 62px 0px 0px;
+}
+
+#boxes .author p2{
+    font-size: 12px;
+    color: dimgrey;
+    padding: 0px 22px 0px 0px;
+}
